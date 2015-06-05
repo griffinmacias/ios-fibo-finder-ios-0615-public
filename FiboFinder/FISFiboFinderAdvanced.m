@@ -1,16 +1,15 @@
 //
-//  FiboFinder.m
+//  FISFiboFinderAdvanced.m
 //  FiboFinder
 //
-//  Created by Chris Gonzales on 6/2/14.
-//  Copyright (c) 2014 FIS. All rights reserved.
+//  Created by Mason Macias on 6/5/15.
+//  Copyright (c) 2015 FIS. All rights reserved.
 //
 
-#import "FISFiboFinder.h"
+#import "FISFiboFinderAdvanced.h"
 
-@implementation FISFiboFinder
+@implementation FISFiboFinderAdvanced
 
-//define methods here
 
 - (NSInteger)fibonacciNumberAtIndex:(NSInteger)index
 {
@@ -37,11 +36,15 @@
         
         [fibonacciNumbers addObject:theFiboNumber];
     }
-
+    
     NSNumber *theNextFiboNumber = fibonacciNumbers.lastObject;
     return theNextFiboNumber.unsignedIntegerValue;
-
+    
 }
+
+
+
+
 
 
 
